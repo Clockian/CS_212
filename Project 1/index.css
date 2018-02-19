@@ -1,0 +1,66 @@
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+p::first-letter{
+	font-size: 150%;
+}
+
+li{
+	color: #8A0CE8;
+}
+
+li:nth-child(odd){
+	color: #560Dff;
+}
+
+/* Extra Stuff */
+html{
+	background-color: #764970;
+}
+
+body{
+	width: 800px;
+	margin: auto;
+	background-color: #CABBC8;
+}
+
+h1{
+	text-align: center;
+	font-size: 300%;
+	padding: 32.16px 0px 32.16px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+p{
+	margin: 0px 15px 0px 15px;
+}
+
+h3{
+	margin: 15px 15px 0px 15px;
+	font-size: 150%;
+}
+
+ul{
+	display:inline-block;
+}
+
+.happyAkko{
+	display: inline-block;
+	margin: 0px 20px 0px 50px;
+}
+
+.sadAkko{
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+}
+
+figcaption{
+	text-align: center;
+	font-size: 150%
+}
